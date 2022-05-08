@@ -31,9 +31,6 @@ img {
 
 /* Header */
 
-nav {
-    margin: 5px 0;
-}
 
 header {
     padding: 20px 35px;
@@ -56,6 +53,10 @@ header a {
     text-decoration: none;
 }
 
+header nav {
+    margin: 5px 0;
+}
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +65,7 @@ header nav ul {
     list-style: none;
 }
 
-nav ul li {
+header nav ul li {
     padding: 10px 15px;
     font-weight:lighter;
     font-size: 1.95vw;
@@ -78,6 +79,19 @@ h2 {
     margin: 0;
 }
 
+.hero {
+    background-image: url("../assets/images/hero-p.avif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
 .hero-title {
     margin: 0;
     font-size: 30px;
@@ -89,9 +103,15 @@ h2 {
     font-size: 40px;
 }
 
-.hero p {
+.hero-title p {
     margin: .25em;
     font-size: 16px;
-    padding: auto;
+    padding: none;
+}
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+    
 }
 
