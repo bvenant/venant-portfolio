@@ -5,9 +5,9 @@
 }
 /* Custom Properties */
 :root {
-    --primary-color: rgb(163, 156, 156);
+    --primary-color: rgba(255, 255, 255, 0.965);
     --secondary-color: rgba(255, 166, 0, 0.871);
-    --tertiary-color: rgb(0, 0, 0);
+    --tertiary-color: rgb(19, 19, 19);
 
     --ff-primary: monospace;
     --ff-secondary: sans-serif;
@@ -16,9 +16,9 @@
 /* General Styles */
 
 body {
-    background: var(--primary-color);
-    color: var(--ff-primary);
-    margin: 0;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    margin: 1.5;
     font-family: var(--ff-primary);
     font-size: 1.55vw;
     line-height: 1.9;
@@ -35,7 +35,7 @@ img {
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
-    background-image: url("../assets/images/hero-p.avif");
+    background-image: url("../images/hero-p.avif");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -49,7 +49,7 @@ header {
 }
 
 header a {
-    color: var(--tertiary-color);
+    color: white;
     text-decoration: none;
 }
 
@@ -77,41 +77,53 @@ h1,
 h2 {
     line-height: 1.2;
     margin: 0;
+ 
 }
 
 .hero {
-    background-image: url("../assets/images/hero-p.avif");
+    background-image: url("../images/hero-p.avif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 100%;
-    display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     height: 600px;
-}
+  }
 
-.hero-title {
-    margin: 0;
-    font-size: 30px;
+.hero-title h1 {
+    font-size: 45px;
+    color: white;
 }
 
 .hero-title strong {
     display: block;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .hero-title p {
     margin: .25em;
-    font-size: 16px;
+    font-size: 25px;
     padding: none;
+    color: white;
 }
 
-.about-me {
+.about-me p {
     max-width: 1000px;
-    margin: 0 auto;
-    
+    margin: 10px;
+    display: inline;
+    float: left;
+    position: left;
+    clear: right;
+}
+
+.about-me img {
+     position: ;
+     margin: 10px;
+     display: inline;
+     max-width: 400px;
+     max-height: 400px;
+     align-items: flex-end;
 }
 
