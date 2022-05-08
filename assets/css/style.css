@@ -7,7 +7,7 @@
 :root {
     --primary-color: rgb(163, 156, 156);
     --secondary-color: rgba(255, 166, 0, 0.871);
-    --tertiary-color: rgba(0, 0, 0, 0.522);
+    --tertiary-color: rgb(0, 0, 0);
 
     --ff-primary: monospace;
     --ff-secondary: sans-serif;
@@ -29,6 +29,47 @@ img {
     max-width: 100%;
 }
 
+/* Header */
+
+nav {
+    margin: 5px 0;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    background-image: url("../assets/images/hero-p.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 15px;
+    font-weight:lighter;
+    font-size: 1.95vw;
+}
+
 /* General page layout */
 
 h1,
@@ -39,7 +80,13 @@ h2 {
 
 .hero-title {
     margin: 0;
-    font-size: 36px;
+    font-size: 30px;
+}
+
+.hero-title strong {
+    display: block;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .hero p {
