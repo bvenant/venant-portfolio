@@ -71,7 +71,7 @@ header nav ul li {
     font-size: 1.95vw;
 }
 
-/* General page layout */
+/* General page layout / Hero */
 
 h1,
 h2 {
@@ -109,21 +109,26 @@ h2 {
     color: white;
 }
 
+/* About Me */
+
 .about-me p {
     max-width: 1000px;
     margin: 10px;
     display: inline;
     float: left;
-    position: left;
-    clear: right;
+    text-align: left;
+    margin: 5px 0 15px 0;
 }
 
 .about-me img {
-     position: ;
      margin: 10px;
      display: inline;
      max-width: 400px;
      max-height: 400px;
      align-items: flex-end;
 }
+
+/* Portfolio */
+
+
 
