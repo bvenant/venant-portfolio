@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Custom Properties */
+:root {
+    --primary-color: rgb(163, 156, 156);
+    --secondary-color: rgba(255, 166, 0, 0.871);
+    --tertiary-color: rgba(0, 0, 0, 0.522);
+
+    --ff-primary: monospace;
+    --ff-secondary: sans-serif;
+}
+
+/* General Styles */
+
+body {
+    background: var(--primary-color);
+    color: var(--ff-primary);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: 1.55vw;
+    line-height: 1.9;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* General page layout */
+
+h1,
+h2 {
+    line-height: 1.2;
+    margin: 0;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    margin: .25em;
+    font-size: 16px;
+    padding: auto;
+}
+
