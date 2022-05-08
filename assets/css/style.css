@@ -130,5 +130,27 @@ h2 {
 
 /* Portfolio */
 
+.my-work {
+    background-color: rgb(67, 64, 64);
+    text-align: center;
+}
 
+.work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 0 auto;
+}
 
+.work img {
+    transition: transform 800ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    opacity 300ms linear;
+}
+
+.work img:hover {
+    transform: scale(1.2);
+    opacity: .80;
+}
+
+.site {
+    overflow: hidden;
+}
