@@ -33,7 +33,7 @@ img {
 
 
 header {
-    padding: 20px 35px;
+    padding: 10px 25px;
     background-color: var(--primary-color);
     background-image: url("../images/hero-p.avif");
     background-size: cover;
@@ -111,6 +111,10 @@ h2 {
 
 /* About Me */
 
+.about-me h2 {
+    text-align: center;
+}
+
 .about-me p {
     max-width: 1000px;
     margin: 10px;
@@ -166,10 +170,22 @@ h2 {
     color: antiquewhite;
 }
 
-.reach-out:hover {
-    opacity: .9;
-}
-
 footer {
     padding: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575) {
+    
 }
