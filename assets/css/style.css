@@ -179,13 +179,60 @@ footer {
     header {
         text-align: center;
         width: 100%;
+        padding: 0;
+        position: relative;
+    }
+
+    header nav ul {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        padding: 5px 10px;
+        font-size: 3vw;
+    }
+
+    .reach-out {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    
+    section {
+        padding: 20px 30px;
+    }
+
+    .about-me {
+        text-align: center;
+        justify-content: center;
+        flex: 100%;
+        font-weight: 2vw;
+    }
 }
 
 @media screen and (max-width: 575) {
-    
+    header {
+        width: 100%;
+    }
+
+    .about-me {
+        flex: 0 100%;
+    }
+
+    .my-work h2 {
+        font-weight: 2vw;
+    }
+
+    .my-work p {
+        font-weight: 2vw;
+    }
 }
