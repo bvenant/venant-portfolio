@@ -89,6 +89,7 @@ h2 {
     align-items: flex-start;
     flex-wrap: wrap;
     height: 600px;
+    margin-bottom: ;
   }
 
 .hero-title h1 {
@@ -111,6 +112,11 @@ h2 {
 
 /* About Me */
 
+.about-me {
+    display: flex;
+    margin-bottom: .5px;
+}
+
 .about-me h2 {
     text-align: center;
 }
@@ -118,10 +124,10 @@ h2 {
 .about-me p {
     max-width: 1000px;
     margin: 10px;
-    display: inline;
     float: left;
     text-align: left;
     margin: 5px 0 15px 0;
+    display: flexbox;
 }
 
 .about-me img {
@@ -136,6 +142,10 @@ h2 {
 
 .my-work {
     background-color: rgb(67, 64, 64);
+    text-align: center;
+}
+
+.my-work h2, p {
     text-align: center;
 }
 
@@ -176,6 +186,11 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
     header {
         text-align: center;
         width: 100%;
