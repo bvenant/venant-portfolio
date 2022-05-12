@@ -40,37 +40,37 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
     z-index: 9999;
+    top: 0;
 }
 
 header a {
     color: white;
     text-decoration: none;
+    display: flex;
+    float: right;
 }
 
 header nav {
     margin: 5px 0;
-    ;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
     float: right;
+    text-align: right;
+    display: flex;  
 }
 
 header nav ul li {
     padding: 10px 15px;
     font-weight:lighter;
-    font-size: 1.95vw;
+    font-size: 20px;
+    flex-wrap: wrap;
 }
 
 /* General page layout / Hero */
@@ -211,7 +211,7 @@ footer {
 
     header nav ul li {
         padding: 5px 10px;
-        font-size: 3vw;
+        font-size: 1.95vw;
     }
 
     .reach-out {

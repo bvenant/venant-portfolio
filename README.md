@@ -38,6 +38,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ### Links  
  
 
-[Venant Portfolio Website](https://bvenant.github.io)  
+[Venant Portfolio Website](https://bvenant.github.io/venant-portfolio/)  
 
-[Venant Portfolio repository](https://github.com/) 
+[Venant Portfolio repository](https://github.com/bvenant/venant-portfolio) 
