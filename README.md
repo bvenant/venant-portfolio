@@ -29,10 +29,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Usage  
 
+![_Users_venant_Desktop_projects_venant-portfolio_index html (1)](https://user-images.githubusercontent.com/103866289/168145430-d789eb00-eb8a-473b-8405-2c3beb561456.png)
 
-![_Users_venant_Desktop_projects_venant-portfolio_index html (1)](https://user-images.githubusercontent.com/103866289/168144578-61406cd0-dd55-4b5b-8f02-7ee3454175e0.png)
-
- 
 
 - - -  
 
