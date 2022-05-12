@@ -55,6 +55,7 @@ header a {
 
 header nav {
     margin: 5px 0;
+    ;
 }
 
 header nav ul {
@@ -63,6 +64,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    float: right;
 }
 
 header nav ul li {
@@ -114,11 +116,13 @@ h2 {
 
 .about-me {
     display: flex;
-    margin-bottom: .5px;
+    padding: 15px 20px;
+    align-content: center;
 }
 
 .about-me h2 {
     text-align: center;
+    padding: 15px 20px;
 }
 
 .about-me p {
@@ -133,8 +137,8 @@ h2 {
 .about-me img {
      margin: 10px;
      display: inline;
-     max-width: 400px;
-     max-height: 400px;
+     max-width: 500px;
+     max-height: 500px;
      align-items: flex-end;
 }
 
@@ -143,6 +147,7 @@ h2 {
 .my-work {
     background-color: rgb(67, 64, 64);
     text-align: center;
+    padding: 15px 20px;
 }
 
 .my-work h2, p {
