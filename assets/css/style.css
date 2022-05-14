@@ -90,7 +90,6 @@ h2 {
     align-items: flex-start;
     flex-wrap: wrap;
     height: 600px;
-    margin-bottom: ;
   }
 
 .hero-title h1 {
@@ -121,7 +120,7 @@ h2 {
 
 .about-me h2 {
     text-align: center;
-    padding: 15px 20px;
+    padding: 20px 25px;
 }
 
 .about-me p {
@@ -236,6 +235,27 @@ footer {
         flex: 100%;
         font-weight: 2vw;
     }
+
+    .about-me h2 {
+        font-size: 15px;
+    }
+
+    .my-work h2{
+        font-size: 15px;
+    }
+
+    .my-work p {
+        font-size: 10px;
+    }
+
+    .reach-out {
+        font-size: 10px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+    
 }
 
 @media screen and (max-width: 575px) {
@@ -255,6 +275,11 @@ footer {
         flex: 0 100%;
     }
 
+    .about-me img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
     .my-work h2 {
         font-weight: 2vw;
     }
@@ -262,4 +287,10 @@ footer {
     .my-work p {
         font-weight: 2vw;
     }
+
+    .my-work img {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
 }
